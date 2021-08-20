@@ -1,0 +1,34 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+form{
+    padding:20px;
+}
+label {
+    font-size:3rem;
+    text-align:center;
+    margin-left:20px;
+}
+input[type="file"] {
+    z-index: -1;
+    font-size: 17px;
+    color: #b8b8b8;
+    border:none;
+    margin-top:20px;
+    margin-left:20px;
+    outline:none;
+    color:rgb(204, 201, 201);
+  }
+button{
+    border:none;
+    outline:none;
+    font-size:1.5rem;
+    background-color:black;
+    color:white;
+    padding:20px;
+    margin:20px;
+}
